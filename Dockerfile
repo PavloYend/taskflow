@@ -3,8 +3,6 @@ WORKDIR /src
 
 COPY . .
 
-WORKDIR /src/TaskFlow.API/TaskFlow.API
-
 RUN dotnet restore
 RUN dotnet publish -c Release -o /app/publish
 
