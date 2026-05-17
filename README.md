@@ -242,25 +242,15 @@ http://localhost:4200
 
 # Screenshots
 
-```md
 ![Create tasks](screenshots/create-tasks.jpg)
-```
 
-```md
 ![Login](screenshots/login.jpg)
-```
 
-```md
 ![Register](screenshots/register.jpg)
-```
 
-```md
 ![Search tasks](screenshots/search-tasks.jpg)
-```
 
-```md
 ![Swagger API.jpg](screenshots/swagger-api.jpg)
-```
 
 ---
 
