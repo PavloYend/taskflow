@@ -1,0 +1,13 @@
+<mat-toolbar>
+  <span> TaskFlow </span>
+
+  <span class="spacer"> </span>
+
+  <a mat-button routerLink="/tasks" *ngIf="isLoggedIn$ | async"> Tasks </a>
+
+  <a mat-button routerLink="/login" *ngIf="!(isLoggedIn$ | async)"> Login </a>
+
+  <a mat-button routerLink="/register" *ngIf="!(isLoggedIn$ | async)"> Register </a>
+
+  <button mat-button *ngIf="isLoggedIn$ | async" (click)="logout()">Logout</button>
+</mat-toolbar>

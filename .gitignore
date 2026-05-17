@@ -1,0 +1,65 @@
+# === .NET / Visual Studio ===
+**/bin/
+**/obj/
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.log
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.dbmdl
+*.bak
+*.Publish.xml
+*.publish.xml
+*.nupkg
+*.snupkg
+*.jfm
+
+# User-specific files
+*.sln.docstates
+.vscode/
+*.code-workspace
+
+# ASP.NET Core / Entity Framework
+appsettings.Development.json
+appsettings.local.json
+secrets.json
+
+# === Angular / Node ===
+node_modules/
+taskflow-frontend/node_modules/
+taskflow-frontend/dist/
+taskflow-frontend/out-tsc/
+taskflow-frontend/.angular/
+taskflow-frontend/coverage/
+
+taskflow-frontend/npm-debug.log*
+taskflow-frontend/yarn-debug.log*
+taskflow-frontend/yarn-error.log*
+taskflow-frontend/pnpm-debug.log*
+
+taskflow-frontend/.npm/
+taskflow-frontend/.parcel-cache/
+taskflow-frontend/.pnp*/
+
+taskflow-frontend/karma-debug.log*
+
+taskflow-frontend/*.log
+
+taskflow-frontend/.env
+taskflow-frontend/.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# JetBrains
+.idea/
+*.iml
