@@ -91,7 +91,7 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(
-                "https://YOUR_NETLIFY_NAME.netlify.app")
+                "https://taskflow-f.netlify.app")
             .AllowAnyHeader()
             .AllowAnyMethod();
         });
