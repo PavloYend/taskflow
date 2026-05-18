@@ -1,5 +1,5 @@
 export const environment = {
   production: false,
 
-  apiUrl: 'https://localhost:7155/api',
+  apiUrl: 'https://taskflow-yfyz.onrender.com/api',
 };
