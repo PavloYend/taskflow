@@ -308,7 +308,7 @@ Planned deployment stack:
 ## Live Demo
 
 Frontend:
-https://your-demo.netlify.app
+https://taskflow-f.netlify.app/
 
 API Swagger:
 https://taskflow-yfyz.onrender.com/swagger
