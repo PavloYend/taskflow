@@ -305,6 +305,16 @@ Planned deployment stack:
 
 ---
 
+## Live Demo
+
+Frontend:
+https://your-demo.netlify.app
+
+API Swagger:
+https://taskflow-yfyz.onrender.com/swagger
+
+---
+
 # Learning Goals
 
 This project was created to practice:
